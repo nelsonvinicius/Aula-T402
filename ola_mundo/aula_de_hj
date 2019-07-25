@@ -1,0 +1,43 @@
+
+py manage.py runserver - P RODAR NO GIT
+
+MTV 
+
+M model:
+tudo relacionado a banco de dados
+
+T template:
+tudo relacionado a visualização na WEB
+páginas HTML
+
+V views: renderiza as página e regras de negócios
+
+SQL - Um banco de dados
+Fremework - 
+
+Criamos a model e a BASE DE DADOS
+classe
+models.model
+models.CharField
+max_length- Caracteres
+verbose_name - É o que vai aparecer pro usuário 
+
+python manage.py makemigratios= gera arquivo de migração
+python manage.py migrate= através do arquivo gerado ele cria ou 
+modifica a base de dados
+
+winpty python manage.py createsuperuser
+
+
+Models - Biografia 
+null=true
+black=true
+
+views.py 
+index.html
+
+sobre
+
+
+git add . 
+git commit -m "criar models formularios listas e salvar base

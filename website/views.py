@@ -9,6 +9,5 @@ def index(request):
 
 def sobre(request):
     contexto = {
-
     }
     return render(request, 'sobre.html', contexto)
